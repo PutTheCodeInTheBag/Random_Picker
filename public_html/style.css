@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: purple;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 0 10px black inset;
+}
+
+input {
+    display: block; 
+    width: 90%;
+    height: 5vh;
+    border: none;
+    margin: 3px;
+    padding: 2px;
+    outline: none;
+}
+
+h3 {
+    margin: auto;
+}
+
+p {
+    background: lightgrey;
+    display: block;
+    border: solid 1px;
+    width: auto;
+    margin: auto;
+    padding: 3px;
+}
+
+nav {
+    display: block;
+    background: blueviolet;
+    width: 25vw;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+nav button {
+    display: block;
+    width: 10%;
+    border: solid 1px;
+    background: red;
+    background-image: url("Trash can icon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: .3s;
+}
+
+nav button:hover {
+    background: rgb(255, 140, 140);
+    transition: .3s;
+    background-image: url("Trash can icon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
+}
+
+.choice {
+    display: flex;
+    width: 100%;
+    height: 5%;
+}
+
+.chosen {
+    display: block;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.chosen_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 35vw;
+    height: 40vh;
+    background: #F0386B;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: mediumpurple;
+}
+
+#numbers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: darkgray;
+    height: 10%;
+}
+
+#roll {
+    display: block;
+    margin: auto auto 0;
+    background-color: #A7A5C6;
+    border: none;
+    width: 100%;
+    height: 10%;
+}
+
+#roll:hover {
+    background-color: #1B998B;
+    scale: 1.05;
+}
